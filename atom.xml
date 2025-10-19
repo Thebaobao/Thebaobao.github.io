@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>向每个梦想加速</title>
+  
+  <subtitle>Welcome to Thebaobao&#39;s blog ~</subtitle>
+  <link href="https://thebaobao.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://thebaobao.github.io/"/>
+  <updated>2025-10-19T09:29:42.027Z</updated>
+  <id>https://thebaobao.github.io/</id>
+  
+  <author>
+    <name>向每个梦想加速</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>new one</title>
+    <link href="https://thebaobao.github.io/2025/10/19/hello-world/"/>
+    <id>https://thebaobao.github.io/2025/10/19/hello-world/</id>
+    <published>2025-10-19T08:40:24.245Z</published>
+    <updated>2025-10-19T09:29:42.027Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="old-blog"><a href="#old-blog" class="headerlink" title="old blog"></a>old blog</h1><p>old blog纯粹是摸索，记录的都是自己对于ctf的web和小部分pwn的探索。</p><h1 id="new-blog"><a href="#new-blog" class="headerlink" title="new blog"></a>new blog</h1><p>new blog针对于各种ctf比赛的wp、CVE以及学习进行记录，不再记录知识点。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;old-blog&quot;&gt;&lt;a href=&quot;#old-blog&quot; class=&quot;headerlink&quot; title=&quot;old blog&quot;&gt;&lt;/a&gt;old blog&lt;/h1&gt;&lt;p&gt;old blog纯粹是摸索，记录的都是自己对于ctf的web和小部分pwn的探索。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
