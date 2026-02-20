@@ -6,22 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-    <meta name="description" content="RSA密钥交换算法  RSA 密钥生成算法 RSA 加密算法1明文^e % n &#x3D; 密文   RSA 解密算法1密文^d % n &#x3D;明文   RSA 签名算法1S &#x3D; H^d mod n   RSA 验签算法1H&#x27; &#x3D; S^e mod n   网络安全当中的关键点大质素N的分解得到p和q，随后即可任意进行操作。 因式分解大整数问题 在线查询分解网站http:&#x2F;&#x2F;www.factordb.">
+    <meta name="description" content="RSA密钥交换算法  RSA 密钥生成算法 RSA 加密算法$$明文^e \mod n &#x3D; 密文$$ RSA 解密算法$$密文^d \mod n &#x3D; 明文$$ RSA 签名算法$$S &#x3D; H^d \mod n$$ RSA 验签算法$$H’ &#x3D; S^e \mod n$$ 网络安全当中的关键点大质素N的分解得到p和q，随后即可任意进行操作。 因式分解大整数问题">
 <meta property="og:type" content="article">
 <meta property="og:title" content="RSA">
 <meta property="og:url" content="http://example.com/2026/02/20/RSA/index.html">
 <meta property="og:site_name" content="向每个梦想加速">
-<meta property="og:description" content="RSA密钥交换算法  RSA 密钥生成算法 RSA 加密算法1明文^e % n &#x3D; 密文   RSA 解密算法1密文^d % n &#x3D;明文   RSA 签名算法1S &#x3D; H^d mod n   RSA 验签算法1H&#x27; &#x3D; S^e mod n   网络安全当中的关键点大质素N的分解得到p和q，随后即可任意进行操作。 因式分解大整数问题 在线查询分解网站http:&#x2F;&#x2F;www.factordb.">
+<meta property="og:description" content="RSA密钥交换算法  RSA 密钥生成算法 RSA 加密算法$$明文^e \mod n &#x3D; 密文$$ RSA 解密算法$$密文^d \mod n &#x3D; 明文$$ RSA 签名算法$$S &#x3D; H^d \mod n$$ RSA 验签算法$$H’ &#x3D; S^e \mod n$$ 网络安全当中的关键点大质素N的分解得到p和q，随后即可任意进行操作。 因式分解大整数问题">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/2026/02/20/RSA/image-20260220140337156.png">
 <meta property="og:image" content="http://example.com/2026/02/20/RSA/image-20260220140354888.png">
 <meta property="og:image" content="http://example.com/2026/02/20/RSA/image-20260220140425397.png">
-<meta property="og:image" content="https://cdn.nlark.com/yuque/__latex/61bf16383fd0ff93f6e74f1b1790338e.svg">
-<meta property="og:image" content="https://cdn.nlark.com/yuque/__latex/84141357d8300cbda17d64ecc89887c1.svg">
-<meta property="og:image" content="https://cdn.nlark.com/yuque/__latex/c8ff235816886b088081e2ca2328d43b.svg">
-<meta property="og:image" content="https://cdn.nlark.com/yuque/__latex/c8ff235816886b088081e2ca2328d43b.svg">
 <meta property="article:published_time" content="2026-02-20T06:07:55.000Z">
-<meta property="article:modified_time" content="2026-02-20T06:10:55.080Z">
+<meta property="article:modified_time" content="2026-02-20T06:20:45.316Z">
 <meta property="article:author" content="xmgmxjs">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/2026/02/20/RSA/image-20260220140337156.png">
@@ -163,18 +159,10 @@
     <h1 id="RSA密钥交换算法"><a href="#RSA密钥交换算法" class="headerlink" title="RSA密钥交换算法"></a>RSA密钥交换算法</h1><p><img src="/2026/02/20/RSA/image-20260220140337156.png" alt="image-20260220140337156"></p>
 <p><img src="/2026/02/20/RSA/image-20260220140354888.png" alt="image-20260220140354888"></p>
 <h1 id="RSA-密钥生成算法"><a href="#RSA-密钥生成算法" class="headerlink" title="RSA 密钥生成算法"></a>RSA 密钥生成算法</h1><p><img src="/2026/02/20/RSA/image-20260220140425397.png" alt="img"></p>
-<h1 id="RSA-加密算法"><a href="#RSA-加密算法" class="headerlink" title="RSA 加密算法"></a>RSA 加密算法</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">明文^e % n = 密文</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://cdn.nlark.com/yuque/__latex/61bf16383fd0ff93f6e74f1b1790338e.svg" alt="img"></p>
-<h1 id="RSA-解密算法"><a href="#RSA-解密算法" class="headerlink" title="RSA 解密算法"></a>RSA 解密算法</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">密文^d % n =明文</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://cdn.nlark.com/yuque/__latex/84141357d8300cbda17d64ecc89887c1.svg" alt="img"></p>
-<h1 id="RSA-签名算法"><a href="#RSA-签名算法" class="headerlink" title="RSA 签名算法"></a>RSA 签名算法</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">S = H^d mod n</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://cdn.nlark.com/yuque/__latex/c8ff235816886b088081e2ca2328d43b.svg" alt="img"></p>
-<h1 id="RSA-验签算法"><a href="#RSA-验签算法" class="headerlink" title="RSA 验签算法"></a>RSA 验签算法</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">H&#x27; = S^e mod n</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://cdn.nlark.com/yuque/__latex/c8ff235816886b088081e2ca2328d43b.svg" alt="img"></p>
+<h1 id="RSA-加密算法"><a href="#RSA-加密算法" class="headerlink" title="RSA 加密算法"></a>RSA 加密算法</h1><p>$$<br>明文^e \mod n &#x3D; 密文<br>$$</p>
+<h1 id="RSA-解密算法"><a href="#RSA-解密算法" class="headerlink" title="RSA 解密算法"></a>RSA 解密算法</h1><p>$$<br>密文^d \mod n &#x3D; 明文<br>$$</p>
+<h1 id="RSA-签名算法"><a href="#RSA-签名算法" class="headerlink" title="RSA 签名算法"></a>RSA 签名算法</h1><p>$$<br>S &#x3D; H^d \mod n<br>$$</p>
+<h1 id="RSA-验签算法"><a href="#RSA-验签算法" class="headerlink" title="RSA 验签算法"></a>RSA 验签算法</h1><p>$$<br>H’ &#x3D; S^e \mod n<br>$$</p>
 <h1 id="网络安全当中的关键点"><a href="#网络安全当中的关键点" class="headerlink" title="网络安全当中的关键点"></a>网络安全当中的关键点</h1><p>大质素N的分解得到p和q，随后即可任意进行操作。</p>
 <h2 id="因式分解大整数问题"><a href="#因式分解大整数问题" class="headerlink" title="因式分解大整数问题"></a>因式分解大整数问题</h2><ol>
 <li>在线查询分解网站<br><a target="_blank" rel="noopener" href="http://www.factordb.com/index.php">http://www.factordb.com/index.php</a></li>
